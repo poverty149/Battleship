@@ -1,0 +1,70 @@
+#header{
+    text-align: center;
+}
+#game_wrapper{
+    display: flex;
+    row-gap: 0px;
+    column-gap: 0px;
+    position: absolute;
+    width: 90%;
+    grid-auto-rows: 0;
+    gap:0px;
+    background-color: steelblue;
+}
+.grid{
+    display: grid;
+    align-items: center;
+    /* grid-template-columns: auto auto; */
+    width: 30%;
+    position: relative;
+    border: 10px solid yellow;
+    background-color: blue;
+    grid-template-columns: repeat(10,2rem) ;
+    column-gap: 0px;
+    row-gap: 0px;
+    gap: 0px;
+    left:10%;
+    
+}
+.cell-grid{
+    
+    height: 100%;
+    border: 2px solid red;
+    background-color: aquamarine;
+    
+
+}
+.hit{
+    background-color: yellow;
+}
+.miss{
+    background-color: green;
+}
+.hide{
+    display: none;
+}
+#over{
+    border: 10px solid brown;
+    padding: 2rem;
+    width:40%;
+    align-content: center;
+}
+.red{
+    background-color: blueviolet;
+}
+.incorrect{
+    background-color: pink;
+}
+.ship{
+    background-color: orange;
+}
+.ship.hit{
+    background-color: yellow;
+}
+.p1{
+   width: 100%;
+}
+.p2{
+    
+    width: 100%;
+}
